@@ -1,0 +1,71 @@
+.button-first-word {
+	color: #9f0002;
+}
+
+.button:hover span > .button-first-word {
+	color: #760000;
+}
+
+ul.topiclist li.row dd {
+	background: #e1e9f2;
+}
+
+ul.topiclist.topics li.row dd.lastpost {
+	background: #e1e9f2;
+}
+
+ul.topiclist li.header {
+	margin-bottom: 5px;
+}
+
+dd.redirect {
+	width: 440px;
+}
+
+.cat {
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #516a88;
+	min-height: 21px;
+	font-size: 1.1em;
+	padding: 8px 0 0 8px;
+	width: 62.7%;
+	float: left;
+	background: #C7D0D7 url("./images/cellpic1.gif");
+	background-repeat: repeat-x;
+}
+
+.catdiv {
+	min-height: 29px;
+	margin: 0;
+	padding: 0;
+	width: 36.5%;
+	float: right;
+	border: 0;
+	background: #FFFFFF url("./images/cellpic2.jpg") scroll top left;
+	background-repeat: repeat-y;
+}
+
+.headerspace-login, fieldset.quick-login {
+	margin: 0px !important;
+}
+
+.search-box .inputbox {
+	height: 24px;
+}
+
+.search-header {
+	margin-right: 20px;
+}
+
+fieldset.quick-login {
+	padding: 6px;
+	text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 950px) and (min-width: 701px) {
+	dd.redirect {
+		width: 410px;
+	}
+}
